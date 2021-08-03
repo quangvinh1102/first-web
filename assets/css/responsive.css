@@ -1,0 +1,45 @@
+/* TABLET */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+    .container {
+        width: 50%;
+    }
+    
+    .member1, .member2, .member3, .member4 {
+        width: 50%;
+    }
+
+
+
+
+}
+
+
+
+
+/* MOBILE */
+
+@media (max-width: 740px) {
+
+    .conten-hd {
+        display: none;
+    }
+    .MB-Sl {
+        display: none;
+    }
+    .container {
+        width: 100%;
+    }
+    .member1, .member2, .member3, .member4 {
+        width: 100%;
+    }
+    a.Send {
+        width: 100%;
+        text-align: center;
+    }
+    .map-section {
+        padding-left: 31px;
+        padding-right: 18px;
+    }
+
+}

@@ -1,0 +1,274 @@
+/* Reset CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*begin Heading*/
+
+.clean {
+    clear: both;
+}
+
+.heading{
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+    
+}
+.btn{
+    padding: 14px 39px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.btn > a,.conten-hd > a
+{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    padding: 7px 20px;
+    letter-spacing: 5px;
+    
+}
+
+.btn > a:hover
+,.conten-hd > a:hover{
+    background-color: #ccc;
+
+}
+.conten-hd{
+    float: right !important; 
+    margin-left: 23px;
+}
+/*end heading*/
+
+/*begin Slider*/
+.slider{
+    position: relative;
+}
+img.sld{
+    width: 100%;
+}
+
+div.slider-slogan{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    letter-spacing: 8px;
+
+}
+.slider b{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 8px 14px;
+}
+/*end Slider*/
+
+/*Begin Project*/
+.conten{
+    display: inline-block;
+    padding: 8px 16px;
+    width: 100%;
+}
+.Pr-heading{
+    padding: 32px 0px;
+}
+
+#Pr{
+    margin: 10px 20px;
+    padding: 16px 0;
+    border-bottom: 1px solid #ccc;
+}
+.house-list2,
+.house-list1 {
+    padding: 0 8px;
+}
+.container {
+    position: relative;
+    float: left;
+    padding: 0 8px;
+    width: 25%;
+    margin-bottom: 16px;
+}
+
+.name-house1 {
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    font-size: 15px Verdana,sans-serif ;
+
+}
+.house-img {
+    max-width: 100%;
+}
+
+
+
+/*end Project*/
+
+/*Begin About*/
+
+.About{
+    display: inline-block;
+    padding: 8px 16px;
+    width: 100%;
+    
+}
+.AB-heading{
+    padding: 32px 0px;
+}
+#AB{
+    margin: 10px 20px;
+    padding: 16px 0;
+    border-bottom: 1px solid #ccc;
+
+}
+.About h3{
+    font-size: 24px;
+}
+.text{
+    color: #000;
+    margin: 15px 20px;
+    font: 15px Verdana, sans-serif;
+}
+.TX{
+    font-size: 16px;
+}
+.About-list{
+    filter: grayscale(75%);
+    padding: 0 8px;
+    box-sizing: inherit;
+}
+.member1
+,.member2
+,.member3
+,.member4{
+    padding: 0 8px;
+    width: 24.99999%;
+    margin-bottom: 16px!important;
+    float: left;
+}
+.About-list img{
+    vertical-align: middle;
+    border-style: none;
+}
+.About-list h3{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+}
+.job{
+    opacity: 0.6;
+    margin: 15px 0px;
+    font: 15px Verdana, sans-serif;
+}
+.About-list p{
+    margin: 15px 0px;
+    font: 15px Verdana, sans-serif;
+}
+.member-bt{
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+    display: block;
+    width: 100%;
+    user-select: none;
+    border: none;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    font: inherit;
+
+}
+.member-bt:hover{
+    color: #000 !important;
+    background-color: #ccc !important;
+}
+/*End About*/
+
+/*Begin Contact*/
+.Contact{
+    display: inline-block;
+    padding: 8px 16px;
+    width: 100%;
+    
+}
+.Ct-heading{
+    padding: 16px 0px;
+}
+#Ct{
+    font-size: 24px;
+    margin: -4px 20px;
+    padding: 16px 0;
+    border-bottom: 1px solid #ccc;
+}
+.Contact > p{
+    color: #000;
+    margin: 15px 20px;
+    font: 15px Verdana, sans-serif;
+    margin-bottom: 15px;
+}
+.Contact > form{
+    box-sizing: inherit;
+    display: block;
+    padding: 0 8px;
+    width: 99%;
+}
+.Contact .protest{
+    border: 1px solid #ccc !important;
+    padding: 12px;
+    display: block;
+    width: 100%;
+    overflow: visible;
+    font: inherit;
+    margin: 10px;
+}
+a.Send{
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: inline-block;
+    margin: 20px 8px;
+}
+.Send:hover {
+    color: #000;
+    background-color: #ccc;
+}
+.map-section {
+    padding: 0 26px;
+}
+.map-section > img {
+    width: 100%;
+}
+.footer{
+    background-color: #000;
+    padding: 40px;
+    text-align: center;
+}
+.slogan{
+    color: #fff;
+    font-size: 15px;
+    font-family: Verdana, sans-serif;
+    line-height: 1.5;
+}
+.slogan > a{
+    color: inherit;
+}
+.slogan > a:hover {
+    color: #4CAF50!important;;
+}
